@@ -47,6 +47,7 @@ class CountdownTimer {
 
     updateClockface(days, hours, mins, secs) {
         const time = `${days}${hours}${mins}${secs}`;
+        console.log(time);
         daysValue.textContent = `${days}`;
         hoursValue.textContent = `${hours}`;
         minsValue.textContent = `${mins}`;
